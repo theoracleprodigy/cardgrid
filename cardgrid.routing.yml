@@ -1,0 +1,7 @@
+custom_rest_module.get_latest_nodes:
+ path: '/code-challenge/gard-grid'
+ defaults:
+   _controller: '\Drupal\cardgrid\Controller\CardRestController::getCardGrid'
+ methods: [GET]
+ requirements:
+   _access: 'TRUE'

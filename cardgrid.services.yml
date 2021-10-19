@@ -1,0 +1,3 @@
+services:
+  CardRestController:
+    class: '\Drupal\cardgrid\Service\cardResponse'

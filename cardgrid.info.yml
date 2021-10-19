@@ -1,0 +1,7 @@
+name: Card Grid Rest
+description: Creates a random json card list from a get request
+package: Card Grid List
+type: module
+version: 1.0
+core_version_requirement: ^8.8 || ^9
+configuration: cardgrid.admin_settings
